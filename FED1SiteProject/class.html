@@ -47,20 +47,20 @@
                         <!--<h3>Intro to Forex</h3>-->
 
                         <div class="galleryItem">
-                            <img src="images/BlueFace Trading Company/black and grey forex.jpg" alt="black and white chart" width="250" height="350" />
+                            <img src="images/BlueFace Trading Company/black and grey forex.jpg" alt="black and white chart" width="600" height="400" />
 
                             <div class="description">
-                                This intro breaks down the basics of the forex market. What is Forex? Who trades Forex and why you should trade.
+                                Intro to Forex
+                                <!--This intro breaks down the basics of the forex market. What is Forex? Who trades Forex and why you should trade.-->
                             </div>
                         </div>
-                        <!--<p>This intro breaks down the basics of the forex market. What is Forex? Who trades Forex and why you should trade.</p>-->
 
-                        <!--<h3>How is Forex Traded</h3>-->
 
                         <div class="galleryItem">
                             <img src="images/BlueFace Trading Company/mobile mt4 app.jpg" width="600" height="400" alt="mobile and desktop" />
                             <div class="description">
-                                In this course you will learn about the many trading platforms, brokers and currency pairs that you will be using in the Forex market. We will also cover trading psychology, coming up with a trading plan and good habits.
+                                How is Forex Traded
+                                <!--In this course you will learn about the many trading platforms, brokers and currency pairs that you will be using in the Forex market. We will also cover trading psychology, coming up with a trading plan and good habits.-->
                             </div>
                         </div>
 
@@ -71,51 +71,42 @@
 
                             <img src="images/BlueFace Trading Company/chart analysis photo.jpg" width="600" height="400" alt="chart analysis" />
                             <div class="description">
-                                Now that you know the basics we will go over fundeamental and technical analysis to better understand how the market moves.
+                                Chart Patterns and Analysis
+                                <!--Now that you know the basics we will go over fundeamental and technical analysis to better understand how the market moves.-->
                             </div>
                         </div>
 
 
-                        <!--<h3>Trading Fundamentals</h3>-->
                         <div class="galleryItem">
-
-
                             <img src="images/BlueFace Trading Company/chart analysis support and resistance.jpg" width="600" height="400" alt="Computer view of suppport and resistance" />
                             <div class="description">
-                                How to identify support and resistance levels, popular indicators, moving averages and intro to Japanese CandleSticks
+                                Trading Fundamentals
+                                <!--How to identify support and resistance levels, popular indicators, moving averages and intro to Japanese CandleSticks-->
                             </div>
                         </div>
 
-
-                        <!--<h3>Trade Setups, Entries and Exits</h3>-->
-
                         <div class="galleryItem">
-
-
                             <img src="images/BlueFace Trading Company/pexels-liza-summer-6347724.jpg" width="600" height="400" alt=" loosing trade" />
                             <div class="description">
-                                The ability to identify high probablity trade setups are vital in the markets. Knowing when to get in the market and when to get out can be a defining wheather youre a profitable trader or a gambler.
+                                Trade Setups, Entries and Exits
+                                <!--The ability to identify high probablity trade setups are vital in the markets. Knowing when to get in the market and when to get out can be a defining wheather youre a profitable trader or a gambler.-->
                             </div>
                         </div>
 
-
-                        <!--<h3>Advanced Trading techniques</h3>-->
                         <div class="galleryItem">
-
-
-
                             <img src="images/BlueFace Trading Company/adam-nowakowski-VkRq5w3asCA-unsplash.jpg" width="600" height="400" alt="Multiple computers displaying charts" />
                             <div class="description">
-                                This is for the seasoned trader. We will take a deeper dive into multiple time frame analysis, Harmonic Patterns, trading divergences binary options and much more.
+                                Advanced Trading techniques
+                                <!--This is for the seasoned trader. We will take a deeper dive into multiple time frame analysis, Harmonic Patterns, trading divergences binary options and much more.-->
                             </div>
                         </div>
                     </article>
 
                 </div>
-                
+
             </section>
-             
-            
+
+
         </section>
 
         <section class="mainWrapper">
@@ -355,8 +346,35 @@
             </div>
 
         </section>
-       </main>
+    </main>
+
     <footer>
+        <div id="admin-btn" class="button" onclick="openAdminNav()">
+            <span class="vertical-text">Advanced</span>
+        </div>
+
+        <!-- Admin navigation -->
+
+        <div id="admin-nav" class="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()">&times;</a>
+            <a href="#">Institutional Trading</a>
+            <a href="#">wyckoff method</a>
+            <a href="#">Order Blocks</a>
+        </div>
+
+        <!-- Admin Toggle below (JS)-->
+        <script>
+            function openAdminNav() {
+                document.getElementById('admin-btn').style.display = 'none';
+                document.getElementById('admin-nav').style.width = "275px";
+            }
+
+            function closeAdminNav() {
+                document.getElementById('admin-btn').style.display = 'block';
+                document.getElementById('admin-nav').style.width = "0";
+            }
+        </script>
+
         All Rights Reserved 2019
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </footer>

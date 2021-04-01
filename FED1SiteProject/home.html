@@ -11,6 +11,8 @@
     <link href="custom.css" rel="stylesheet" />
 </head>
 <body>
+    
+   
     <header>
         <div id="headerOverlay">
             <h1>BlueFace Trading Company</h1> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -37,7 +39,8 @@
 
     <main>
         <section class="mainWrapper">
-            <img src="images/BlueFace Trading Company/head shot 2.jpg" alt="Man Smiling" id="css" height="325" width="250" />
+            <img src="images/BlueFace Trading Company/pexels-fauxels-3183197.jpg" alt="Company Meeting" id="css" height="400" width="400" />
+
             <h id="aboutH3">About Us</h>
             <p>
                 Blue face Marketing was founded in 2020 Brandan Mitchell I'm baby affogato reprehenderit heirloom, cronut voluptate ugh fam leggings. Banh mi offal officia freegan, palo santo elit hell of post-ironic bicycle rights ut excepteur green juice scenester wayfarers do. Pickled mlkshk velit officia ut live-edge. Do cronut vaporware, magna tumeric williamsburg cupidatat. Ut mustache wayfarers eiusmod letterpress, vape hell of laborum lo-fi dolore twee cred magna. Plaid tacos waistcoat, copper mug sed enamel pin paleo.
@@ -91,5 +94,18 @@
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </footer>
 
+    <script>
+        function toggleNav() {
+            let navList = document.getElementById('nav-list');
+            navList.classList.toggle('expanded');
+
+            //toggle between the Hamburger menu button and the close button
+            let btnMenu = document.getElementById('menu-btn');
+            if (navList.classList.contains('expanded')) {
+                btnMenu.innerHTML = '&times;';
+            }
+            btnMenu.innerHTML = '&#9776'
+        }
+    </script>
 </body>
 </html>
