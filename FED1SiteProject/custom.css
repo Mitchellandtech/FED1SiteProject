@@ -1,4 +1,7 @@
-﻿body {
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
+
+body {
     background-image: url('images/BlueFace Trading Company/nick-chong-N__BnvQ_w18-unsplash.jpg');
     /*background-size: cover;*/
     background-repeat: no-repeat;
@@ -13,6 +16,7 @@ header {
     background: linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
     padding: 1em;
+    font-family: Kiwi Maru;
 }
 
 #headerOverlay {
@@ -48,7 +52,7 @@ h1 {
 }
 
 main {
-    background-color: rgba(211,211,211, .7);
+    background-color: rgba(211,211,211, .6);
     box-shadow: inset 0 0 50px #333;
 }
 
@@ -64,6 +68,7 @@ nav {
         display: inline-block;
         padding: 0em 1em;
         font-weight: bold;
+        font-family: Kiwi Maru;
     }
 
     nav li:hover {
@@ -91,13 +96,15 @@ h2 {
     font-size: 30px;
     text-align: center;
     padding: 3%;
+    font-family: Kiwi Maru;
 }
 
 #aboutH3 {
     color: white;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: Kiwi Maru;
 }
 
 footer {
@@ -127,7 +134,7 @@ footer {
 }
 
 .mainWrapper {
-    padding: 4%;
+    padding: 8em;
 }
 
 .clear {
@@ -185,23 +192,25 @@ tfoot {
 
 #css {
     float: left;
-    height: 300px;
-    margin-right: 30px;
+    height: 400px;
+    margin-right: 0px;
     padding: 1em;
+    border-radius: 3%;
 }
 
 #stressFree {
     float: left;
-    height: 300px;
+    height: 385px;
     margin-right: 20px;
     padding-left: 2em;
+    padding-bottom: 2em;
 }
 
 
 
 #tools {
     float: right;
-    height: 350px;
+    height: 450px;
     margin-left: 20px;
     padding-right: -1em;
 }
@@ -212,7 +221,7 @@ div.galleryItem {
     border: 1px solid #ccc;
     display: inline-block;
     width: 300px;
-    background-color: #fff;
+    background-color: black;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -303,6 +312,43 @@ div.galleryItem {
 /*#endregion*/
 
 
-/*#endregion */
+a {
+    color: white;
+    font-weight: bold;
+    font-family: Kiwi Maru;
+}
 
+/*#region Team*/
+.teamleadership {
+    font-size:  50px;
+    font-family: Kiwi Maru;
+}
+
+.team {
+    float: left;
+    height: 400px;
+    margin-right: 30px;
+    padding: 1em;
+    border-radius: 3%;
+}
+
+
+.departmentList {
+    font-size: 1.5em;
+}
+
+.leadership {
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    padding-bottom: 0em;
+    border-radius: 55%;
+    width: 125px;
+}
+
+.teamMembers {
+    padding: 5em;
+}
+
+/*#endregion*/
 
