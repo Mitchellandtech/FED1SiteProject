@@ -41,23 +41,47 @@
         </ul>
     </nav>
 
-    <main>
-
+    <main class="mainWrapper">
+        <h2>Contact Us</h2>
         <section class="mainWrapper">
-            <h2>Contact Us</h2>
-            <div class="contactInfo">
-                <p>
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    Phone: <a href="tel:+01-816-857-5309">816-857-5309</a>
-                </p><br />
-
-                <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: <a href="learning@smallbiz.com">learning@smallbiz.com</a> </p><br />
-
-                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Address: 1740 W 92nd Street, Kansas City,MO 64114</p><br />
+            <div class="row">
+                <form action="#" method="get" onsubmit="validateForm(event)">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                                <span id="rfvName" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                                <span id="rfvEmail" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                                <span id="rfvSubject" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                                <span id="rfvMessage" class="invalid"></span>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success" value="Send Message" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
-    <footer class="mainWrapper">
+    <footer>
         All Rights Reserved 2019
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </footer>
@@ -68,7 +92,8 @@
 
     <!-- Bootstrap 3.3.7 minified JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+   
+    <script src="js/jquerycode.js"></script>
 
 </body>
 </html>

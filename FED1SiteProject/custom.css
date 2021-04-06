@@ -352,3 +352,7 @@ a {
 
 /*#endregion*/
 
+textarea {
+    resize: none;
+    height: 15em !important;
+}
