@@ -24,10 +24,31 @@
             <h1>BlueFace Trading Company</h1> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
             <p>Where we take you from 0 to 100 real quick</p>
         </div>
+
+
     </header>
 
     <nav>
-        <ul>
+        <a href="javascript:void(0)" class="pull-right" onclick="toggleNav()" id="menu-btn">
+            &#9776;
+        </a>
+        <ul id="nav-list" class="topnav">
+            <li class="active">
+                <a href="/home.html">
+                    <span class="glyphicon glyphicon-home"></span> Home
+                </a>
+            </li>
+            <li>
+                <a href="/class.html">Class</a>
+            </li>
+            <li>
+                <a href="/team.html">Team</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+        </ul>
+        <!--<ul>
             <li>
                 <a href="/home.html">Home</a>
             </li>
@@ -40,7 +61,7 @@
             <li>
                 <a href="/contact.html">Contact</a>
             </li>
-        </ul>
+        </ul>-->
     </nav>
 
     <main>
@@ -120,6 +141,23 @@
 
     <!-- Bootstrap 3.3.7 minified JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        //We are now in JS mode on this HTML file because we are between two script tags.
+        function toggleNav() {
+            let navList = document.getElementById('nav-list');
+            navList.classList.toggle('expanded');
+            let btnMenu = document.getElementById('menu-btn');
+            if (navList.classList.contains('expanded')) {
+                btnMenu.innerHTML = '&times;';
+            }
+            else {
+                btnMenu.innerHTML = '&#9776;';
+
+
+            }//end else
+        }//end toggleNav()
+    </script>
 
 </body>
 </html>
