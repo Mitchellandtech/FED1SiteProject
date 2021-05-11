@@ -17,103 +17,94 @@
     <link href="custom.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <div id="headerOverlay">
-            <h1>BlueFace Trading Company</h1> <i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
-            <p>Where we take you from 0 to 100 real quick</p>
-        </div>
-    </header>
-
-    <nav>
-        <a href="javascript:void(0)" class="pull-right" onclick="toggleNav()" id="menu-btn">
-            &#9776;
-        </a>
-
-        <ul id="nav-list" class="topnav">
-            <li class="active">
-                <a href="/home.html">
-                    <span class="glyphicon glyphicon-home"></span> Home
-                </a>
-            </li>
-            <li>
-                <a href="/class.html">Class</a>
-            </li>
-            <li>
-                <a href="/team.html">Team</a>
-            </li>
-            <li>
-                <a href="/contact.html">Contact</a>
-            </li>
-        </ul>
-        <!--<ul>
-            <li>
-                <a href="/home.html">Home</a>
-            </li>
-            <li>
-                <a href="/class.html">Class</a>
-            </li>
-            <li>
-                <a href="/team.html">Team</a>
-            </li>
-            <li>
-                <a href="/contact.html">Contact</a>
-            </li>
-        </ul>-->
-    </nav>
-
-    <main class="mainWrapper">
-        <h2>Contact Us</h2>
-        <section class="mainWrapper">
-            <div class="row">
-                <form action="#" method="get" onsubmit="validateForm(event)">
-                    <div class="col-sm-offset-2 col-sm-8">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
-                                <span id="rfvName" class="invalid"></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
-                                <span id="rfvEmail" class="invalid"></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
-                                <span id="rfvSubject" class="invalid"></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
-                                <span id="rfvMessage" class="invalid"></span>
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <input type="submit" class="btn btn-success" value="Send Message" />
-                            </div>
-                        </div>
-                    </div>
-                </form>
+    <div id="container">
+        <header>
+            <div id="headerOverlay">
+                <h1>BlueFace Trading Company</h1>
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" h></i></a>
+                <a href="https://twitter.com/weteachstuff"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <p>Where we take you from 0 to 100 real quick</p>
             </div>
-        </section>
-    </main>
-    <footer>
-        All Rights Reserved 2019
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    </footer>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </header>
 
-    <!-- Bootstrap 3.3.7 minified JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <nav>
+            <a href="javascript:void(0)" class="pull-right" onclick="toggleNav()" id="menu-btn">
+                &#9776;
+            </a>
+            <ul id="nav-list" class="topnav">
+                <li class="active">
+                    <a href="Index.html">
+                        <span class="glyphicon glyphicon-home"></span> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/class.html">Class</a>
+                </li>
+                <li>
+                    <a href="/team.html">Team</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-    <script src="js/jquerycode.js"></script>
+        <main class="mainWrapper">
+            <h2>Contact Us</h2>
+            <section class="mainWrapper">
+                <div class="row">
+                    <form action="#" method="get" onsubmit="validateForm(event)">
+                        <div class="col-sm-offset-2 col-sm-8">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                                    <span id="rfvName" class="invalid"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                                    <span id="rfvEmail" class="invalid"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                                    <span id="rfvSubject" class="invalid"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                                    <span id="rfvMessage" class="invalid"></span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-success" value="Send Message" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            All Rights Reserved 2021
+            <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        </footer>
 
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap 3.3.7 minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="js/jquerycode.js"></script>
+    </div>
 </body>
 </html>

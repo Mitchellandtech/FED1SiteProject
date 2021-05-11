@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BlueFace Trading Company</title>
+    <meta name="description" content="Learning about the forex market." />
+    <meta name="keywords" content="forex, trading, pip, mt4" />
+    <meta name="author" content="Brandan Mithcell" />
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- BootStrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- favicon logo -->
+    <link rel="shortcut icon" type="image/svg" href="images/BlueFace Trading Company/Blue and White Circle DJ Kommune Logo.png" />
+
+    <link href="custom.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="container">
+        <header>
+            <div id="headerOverlay">
+                <h1>BlueFace Trading Company</h1>
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" h></i></a>
+                <a href="https://twitter.com/weteachstuff"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <p>Where we take you from 0 to 100 real quick</p>
+            </div>
+
+
+        </header>
+
+        <nav>
+            <a href="javascript:void(0)" class="pull-right" onclick="toggleNav()" id="menu-btn">
+                &#9776;
+            </a>
+            <ul id="nav-list" class="topnav">
+                <li class="active">
+                    <a href="Index.html">
+                        <span class="glyphicon glyphicon-home"></span> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/class.html">Class</a>
+                </li>
+                <li>
+                    <a href="/team.html">Team</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="mainWrapper">
+                <img src="images/BlueFace Trading Company/pexels-canva-studio-3153198.jpg" alt="Company Meeting" id="css" height="400" width="400" />
+
+                <h id="aboutH3">About Us</h>
+                <p>
+                    Blue face Marketing was founded in May 2020. we are the leading provider for forex education and tips. We have a team full of seasoned professionals who will guide you through the markets and take you from novice to Pro. We have a structured course list that covers tgat basics of what Forex is to more complex theories such as the Wyckoff method. At Blue Face Marketing your education comes first. We will provide you the tools and knowledge that will give you the confidence to place that first trade in the live markets.
+                </p>
+
+
+            </section>
+            <!-- Go back and finish rest of about us  -->
+
+
+            <section class="mainWrapper">
+                <h2>Why Choose Us</h2>
+                <article>
+                    <img src="images/BlueFace Trading Company/why choose us 2.jpg" alt="man stressed" id="stressFree" height="450" width="350" />
+                    <h3>Stress Free Trading</h3>
+                    <br />
+                    <p>
+                        At Blue Face marketing we understand how stressful trading can be: when do I enter? Where should I put my stop loss? what should I do when the trade goes against me? These issues are the main worries of most traders who are new. We take all that stressand anxity away from you by giving you specific guidelines and rules to follow to take the emotions out of trading.
+                    </p>
+                    <br />
+                    <P>
+                        Our instructors have use some of the most well known practices and methods to get you in and out of trades with the best risk to reward ratio. Understand that even the best traders have loosing days but with a well written out strategy and a risk to reward ratio your winners will always be bigger than your loosers
+                    </P>
+                    <br />
+                    <p>
+                        You will have a new sense of confidance after taking our program and apply these concepts in your trading plan.
+                    </p>
+                    <br /><br />
+                </article>
+
+                <br /><br /><br><br /><br>
+                <article class="mainWrapper">
+                    <img src="images/BlueFace Trading Company/why choose us photo 1.jpg" alt="Man on Phone" id="tools" height="450" width="450" />
+                    <h3>We Give You The Tools To Be Successful</h3>
+                    <br />
+                    <p>
+                        Our main min goal is to make sure you leave here with the best experience possible. throughout the course you will gain the knowledge of a seasonal trader. From begining to the end we will be there with you every step of the way. You learn the basics of the forex market is, How to read price Action and candle stick patterns. Also we will implement certain indicators that will aide in your entries and exits. Thats not all we also teach the psychology of the markets. while we trade our emotions are tied to our hard earned dollars which will perpetuate into poor trading. 
+                    </p>
+                    <br />
+
+                    <p>
+                        These valuable tools can be used acoss the markets in any timeframe you choose to use or any market you choose to trade. Take the next step and Join a team that you can call a family
+                    </p>
+
+
+
+                </article>
+            </section>
+
+        </main>
+        <footer>
+            <p> All rights Reserved 2021</p>
+            <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        </footer>
+
+        <script>
+        function toggleNav() {
+            let navList = document.getElementById('nav-list');
+            navList.classList.toggle('expanded');
+
+            //toggle between the Hamburger menu button and the close button
+            let btnMenu = document.getElementById('menu-btn');
+            if (navList.classList.contains('expanded')) {
+                btnMenu.innerHTML = '&times;';
+            }
+            btnMenu.innerHTML = '&#9776'
+        }
+        </script>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap 3.3.7 minified JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+        //We are now in JS mode on this HTML file because we are between two script tags.
+        function toggleNav() {
+            let navList = document.getElementById('nav-list');
+            navList.classList.toggle('expanded');
+            let btnMenu = document.getElementById('menu-btn');
+            if (navList.classList.contains('expanded')) {
+                btnMenu.innerHTML = '&times;';
+            }
+            else {
+                btnMenu.innerHTML = '&#9776;';
+
+
+            }//end else
+        }//end toggleNav()
+        </script>
+    </div>
+</body>
+</html>
